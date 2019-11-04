@@ -1,4 +1,4 @@
-var redis = require('redis');
+var redis = require('ioredis');
 
 function retryStrategy (options) {
   if (options.attempt > 5) {

@@ -1,10 +1,10 @@
 {
   "name": "cache-service-redis",
-  "version": "2.0.1",
-  "description": "A redis plugin for cache-service.",
+  "version": "3.0.0",
+  "description": "A redis plugin for cache-service. With ioredis.",
   "main": "redisCacheModule.js",
   "dependencies": {
-    "redis": "^2.6.2"
+    "ioredis": "^4.14.1"
   },
   "devDependencies": {
     "mocha": "2.2.4",
